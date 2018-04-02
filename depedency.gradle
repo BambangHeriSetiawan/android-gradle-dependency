@@ -4,24 +4,24 @@ ext {
             buildToolsVersion : "26.0.2",
             minSdk            : 19,
             targetSdk         : 26,
-            butterknifeVersion: "8.8.1",
-            daggerVersion     : "2.11",
-            supportLib        : "26.1.0",
-            constraintLayout  : "1.0.2",
-            rxAndroidVer      : "2.0.1",
-            rxJavaVer         : "2.1.9",
-            okhttpVer         : "3.9.1",
-            roomVer           : "1.0.0",
-            gsonVer           : "2.2.4",
-            retroVer          : "2.3.0",
-            butterVer         : "8.8.1",
-            glideVer          : "4.5.0",
-            dagger2Ver        : "2.13",
-            firebaseVer       : "11.8.0",
-            firebaseUiVer     : "3.2.1",
-            crashlyticsVer    : "2.9.1",
-            lifecycleVer      : "1.1.1"
-    ],
+            butterknifeVersion: '8.8.1',
+            daggerVersion     : '2.11',
+            supportLib        : '26.1.0',
+            constraintLayout  : '1.0.2',
+            rxAndroidVer      : '2.0.1',
+            rxJavaVer         : '2.1.9',
+            okhttpVer         : '3.9.1',
+            roomVer           : '1.0.0',
+            gsonVer           : '2.2.4',
+            retroVer          : '2.3.0',
+            butterVer         : '8.8.1',
+            glideVer          : '4.5.0',
+            dagger2Ver        : '2.13',
+            firebaseVer       : '11.8.0',
+            firebaseUiVer     : '3.2.1',
+            crashlyticsVer    : '2.9.1',
+            lifecycleVer      : '1.1.1'
+    ]
     libraries = [
             //Android Liberary
             appcompatV7             :"com.android.support:appcompat-v7:$versions.supportLib",
@@ -34,7 +34,7 @@ ext {
             rxandroid               :"io.reactivex.rxjava2:rxandroid:$versions.rxAndroidVer",
             rxjava2                 :"io.reactivex.rxjava2:rxjava:$versions.rxJavaVer",
             okhttp                  :"com.squareup.okhttp3:okhttp:$versions.okhttpVer",
-            interceptor     :"com.squareup.okhttp3:logging-interceptor:$versions.okhttpVer",
+            interceptor             :"com.squareup.okhttp3:logging-interceptor:$versions.okhttpVer",
             gson                    :"com.google.code.gson:gson:$versions.gsonVer",
             retrofit2               :"com.squareup.retrofit2:retrofit:$versions.retroVer",
             adapterRxjava2         :"com.squareup.retrofit2:adapter-rxjava2:$versions.retroVer",
@@ -96,7 +96,7 @@ ext {
             // Test helpers for LiveData
             coreTestings           :"android.arch.core:core-testing:$versions.lifecycleVer",
             // Test helpers for Room
-            roomTesting            :"android.arch.persistence.room:testing:$versions.room",
+            roomTesting            :"android.arch.persistence.room:testing:$versions.room"
 
     ]
 }
