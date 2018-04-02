@@ -20,7 +20,7 @@ ext {
             firebaseVer       : "11.8.0",
             firebaseUiVer     : "3.2.1",
             crashlyticsVer    : "2.9.1",
-            lifecycleVer      : "1.1.1",
+            lifecycleVer      : "1.1.1"
     ],
     libraries = [
             //Android Liberary
