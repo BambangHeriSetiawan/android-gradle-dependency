@@ -20,6 +20,7 @@ ext {
             firebaseVer       : '11.8.0',
             firebaseUiVer     : '3.2.1',
             crashlyticsVer    : '2.9.1',
+            mapsUtils         :'0.5+',
             lifecycleVer      : '1.1.1'
     ],
     libraries = [
@@ -47,7 +48,7 @@ ext {
             playServicesLocation  :"com.google.android.gms:play-services-location:$versions.firebaseVer",
             playServicesMaps      :"com.google.android.gms:play-services-maps:$versions.firebaseVer",
             playServices           :"com.google.android.gms:play-services:$versions.firebaseVer",
-            androidMapsUtils      :"com.google.maps.android:android-maps-utils:$versions.firebaseVer",
+            androidMapsUtils      :"com.google.maps.android:android-maps-utils:$versions.mapsUtils",
             //Firebase all
             firebaseCore           :"com.google.firebase:firebase-core:$versions.firebaseVer",
             firebaseAuth           :"com.google.firebase:firebase-auth:$versions.firebaseVer",
