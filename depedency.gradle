@@ -21,7 +21,7 @@ ext {
             firebaseUiVer     : '3.2.1',
             crashlyticsVer    : '2.9.1',
             lifecycleVer      : '1.1.1'
-    ]
+    ],
     libraries = [
             //Android Liberary
             appcompatV7             :"com.android.support:appcompat-v7:$versions.supportLib",
@@ -46,7 +46,7 @@ ext {
             playServicesAwareness :"com.google.android.gms:play-services-awareness:$versions.firebaseVer",
             playServicesLocation  :"com.google.android.gms:play-services-location:$versions.firebaseVer",
             playServicesMaps      :"com.google.android.gms:play-services-maps:$versions.firebaseVer",
-            playWervices           :"com.google.android.gms:play-services:$versions.firebaseVer",
+            playServices           :"com.google.android.gms:play-services:$versions.firebaseVer",
             androidMapsUtils      :"com.google.maps.android:android-maps-utils:$versions.firebaseVer",
             //Firebase all
             firebaseCore           :"com.google.firebase:firebase-core:$versions.firebaseVer",
@@ -97,6 +97,5 @@ ext {
             coreTestings           :"android.arch.core:core-testing:$versions.lifecycleVer",
             // Test helpers for Room
             roomTesting            :"android.arch.persistence.room:testing:$versions.room"
-
     ]
 }
