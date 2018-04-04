@@ -1,23 +1,25 @@
 # android-gradle-dependency
 Android gradle depedency in one place
 
-#How to use
+# How to use
 
 add in app gradle
 ```
 apply from:'https://raw.githubusercontent.com/BambangHeriSetiawan/android-gradle-dependency/master/depedency.gradle
 ```
 
-implement in devepency
+implement in dependency
 ```
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    /*Android Supprot*/
+    
+    /* Android Support */
     implementation libraries.appcompatV7
     implementation libraries.supportV4
     implementation libraries.design
     implementation libraries.constraintLayout
-    /*RxAndroid, RxJava, Okhttp, okhttp interceptor, Retrofir 2, GSON, rxAdapter*/
+    
+    /* RxAndroid, RxJava, Okhttp, okhttp interceptor, Retrofir 2, GSON, rxAdapter */
     implementation libraries.rxandroid
     implementation libraries.rxjava2
     implementation libraries.okhttp
@@ -28,7 +30,7 @@ dependencies {
     implementation libraries.converterGson
     implementation libraries.retrofit2Rxjava2Adapter
 
-    /*Dagger 2*/
+    /* Dagger 2 */
     annotationProcessor libraries.dagger2Compiler
     annotationProcessor libraries.dagger2Processor
     implementation libraries.dagger
@@ -41,9 +43,9 @@ dependencies {
 }
 ```
 
-#Versioning control
+# Versioning control
 
-#How to use
+# How to use
 
 add in app gradle
 
@@ -61,7 +63,7 @@ defaultConfig {
         versionCode gitVersionCode
         versionName gitVersionName
         ...
-    }
+}
 ```
 ```
 git tag v1.0
