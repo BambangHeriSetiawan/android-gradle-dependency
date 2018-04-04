@@ -10,7 +10,35 @@ apply from:'https://raw.githubusercontent.com/BambangHeriSetiawan/android-gradle
 
 implement in devepency
 ```
-implementation libraries.appcompatV7
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    /*Android Supprot*/
+    implementation libraries.appcompatV7
+    implementation libraries.supportV4
+    implementation libraries.design
+    implementation libraries.constraintLayout
+    /*RxAndroid, RxJava, Okhttp, okhttp interceptor, Retrofir 2, GSON, rxAdapter*/
+    implementation libraries.rxandroid
+    implementation libraries.rxjava2
+    implementation libraries.okhttp
+    implementation libraries.interceptor
+    implementation libraries.gson
+    implementation libraries.retrofit2
+    implementation libraries.adapterRxjava2
+    implementation libraries.converterGson
+    implementation libraries.retrofit2Rxjava2Adapter
+
+    /*Dagger 2*/
+    annotationProcessor libraries.dagger2Compiler
+    annotationProcessor libraries.dagger2Processor
+    implementation libraries.dagger
+    implementation libraries.daggerAndorid
+    implementation libraries.daggerAndroidSupport
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
 ```
 
 #Versioning control
