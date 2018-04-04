@@ -1,12 +1,12 @@
 ext {
     versions = [
-            compileSdk        : 26,
-            buildToolsVersion : "26.0.2",
-            minSdk            : 19,
-            targetSdk         : 26,
+            compileSdk        : 27,
+            buildToolsVersion : "27.1.0",
+            minSdk            : 21,
+            targetSdk         : 27,
             butterknifeVersion: '8.8.1',
             daggerVersion     : '2.11',
-            supportLib        : '26.1.0',
+            supportLib        : '27.1.0',
             constraintLayout  : '1.0.2',
             rxAndroidVer      : '2.0.1',
             rxJavaVer         : '2.1.9',
