@@ -53,8 +53,7 @@ make sure your project git project
 
 
 ```
-apply from:'https://raw.githubusercontent.com/BambangHeriSetiawan/android-gradle-dependency/master/depedency.gradle
-```
+https://raw.githubusercontent.com/BambangHeriSetiawan/android-gradle-dependency/master/git-version.gradle
 ```
 defaultConfig {
         
